@@ -16,7 +16,8 @@ The python scripts in here use an api key from NOAA (NCDC web service key token 
 This folder holds all the python notebooks (applicable ones are number 01 through 04 in the names) that handle things such as loading the csv files, using databricks library things, cleaning up the data into forms that we want, creating a model (random forests + scikit learn).
 
 # About the project
-See our devpost link for a video: [devpost](https://devpost.com/software/databricks-temp-1)
+See our devpost link for more information: [devpost](https://devpost.com/software/databricks-temp-1)
+Here is a link to a video demonstrating our work [link](https://www.youtube.com/watch?v=9xnolivQuHE)
 
 ### Tech stack
 The goal was to use as much Databricks internal tools as possible. We used Databrick's *MLflow* when creating our model and loaded it with Databricks *Genie* so that users can communicate with Genie about the actual statistics. We also created a pipeline/job in *Jobs & Pipelines* that automatically updates on a trigger, which is when the dataset folder experiences any changes. Additionally, we created visualizations in Databrick's *Dashboards* area.
